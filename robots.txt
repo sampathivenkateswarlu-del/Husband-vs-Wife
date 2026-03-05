@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sampathivenkateswarlu-del.github.io/Husband-vs-Wife/sitemap.xml
