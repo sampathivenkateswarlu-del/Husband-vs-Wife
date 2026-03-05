@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Husband vs Wife - Fun Couple Challenges</title>
+    <meta name="description" content="Engage in fun husband vs wife challenges, quizzes, polls, and memes. Test your compatibility and enjoy daily couple activities.">
+    <meta name="keywords" content="husband wife, couple quiz, daily poll, memes, funny stories, compatibility calculator">
+    <meta name="author" content="Husband vs Wife Team">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Husband vs Wife">
+    <meta property="og:description" content="Fun couple challenges and activities">
+    <meta property="og:image" content="assets/og-image.png">
+    <meta property="og:url" content="https://husbandvswife.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Husband vs Wife">
+    <meta name="twitter:description" content="Fun couple challenges">
+    <meta name="twitter:image" content="assets/og-image.png">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="loader"></div>
+        <p>Loading...</p>
+    </div>
+    <nav id="navbar">
+        <div class="nav-container glass">
+            <h1>Husband vs Wife</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/couple-quiz.html">Couple Quiz</a></li>
+                <li><a href="pages/daily-poll.html">Daily Poll</a></li>
+                <li><a href="pages/meme-gallery.html">Meme Gallery</a></li>
+                <li><a href="pages/funny-stories.html">Funny Stories</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="hero" class="fade-in">
+            <div class="hero-content glass">
+                <h2>Welcome to Husband vs Wife</h2>
+                <p>Challenge your partner with fun quizzes, polls, and more! Discover who knows each other better and enjoy hilarious couple content.</p>
+                <a href="pages/couple-quiz.html" class="btn">Start Quiz</a>
+            </div>
+        </section>
+        <section id="compatibility-calculator" class="fade-in">
+            <div class="section-content glass">
+                <h3>Compatibility Calculator</h3>
+                <form id="compat-form">
+                    <input type="text" placeholder="Your Name" id="name1" required>
+                    <input type="text" placeholder="Partner's Name" id="name2" required>
+                    <button type="submit" class="btn">Calculate Compatibility</button>
+                </form>
+                <div id="compat-result"></div>
+            </div>
+        </section>
+        <section id="leaderboard" class="fade-in">
+            <div class="section-content glass">
+                <h3>Daily Poll Leaderboard</h3>
+                <div id="leaderboard-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Husband vs Wife. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

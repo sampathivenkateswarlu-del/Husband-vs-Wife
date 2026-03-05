@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Gallery - Husband vs Wife</title>
+    <meta name="description" content="Browse hilarious couple memes in a Pinterest-style grid.">
+    <meta name="keywords" content="memes, couple memes, funny memes">
+    <meta property="og:title" content="Meme Gallery - Husband vs Wife">
+    <meta property="og:description" content="Funny couple memes">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container glass">
+            <h1>Husband vs Wife</h1>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="couple-quiz.html">Couple Quiz</a></li>
+                <li><a href="daily-poll.html">Daily Poll</a></li>
+                <li><a href="meme-gallery.html">Meme Gallery</a></li>
+                <li><a href="funny-stories.html">Funny Stories</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="fade-in">
+            <div class="section-content glass">
+                <h2>Meme Gallery</h2>
+                <p>Enjoy these hilarious couple memes! Click on any meme to view it larger.</p>
+                <div class="search-container">
+                    <input type="text" id="meme-search" placeholder="Search memes..." class="search-input">
+                </div>
+                <div id="meme-grid">
+                    <!-- Memes will be loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="lightbox" onclick="closeLightbox()">
+        <div id="lightbox-content"></div>
+        <span class="close">&times;</span>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/memes.js"></script>
+</body>
+</html>
